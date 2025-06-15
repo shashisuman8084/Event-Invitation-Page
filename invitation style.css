@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e0f2;
+    color: #333;
+    text-align: center;
+}
+
+.hero {
+    background: url('wedding-background.jpg') no-repeat center center/cover;
+    color: rgb(226, 6, 186);
+    padding: 50px 20px;
+    text-shadow: 2px 2px 5px rgba(235, 163, 223, 0.7);
+    font-family: cursive;
+    padding-top: 5px;
+}
+.address {
+max-width: 400px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: goldenrod;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.details {
+    padding: 20px;
+    background: hsl(0, 18%, 89%);
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    height: 700px;
+    background-image: url("Birthday_bg.jpg");
+}
+
+.details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.actions {
+    margin: 20px 0;
+}
+
+.rsvp-button {
+    background-color:rgb(231, 81, 204);
+    color: gold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.rsvp-button:hover {
+    background-color: #0056b3;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
